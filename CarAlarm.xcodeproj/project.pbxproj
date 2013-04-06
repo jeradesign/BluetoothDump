@@ -1,0 +1,319 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		423FFE1A1710A199002F5511 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 423FFE191710A199002F5511 /* UIKit.framework */; };
+		423FFE1C1710A199002F5511 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 423FFE1B1710A199002F5511 /* Foundation.framework */; };
+		423FFE1E1710A199002F5511 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 423FFE1D1710A199002F5511 /* CoreGraphics.framework */; };
+		423FFE241710A199002F5511 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 423FFE221710A199002F5511 /* InfoPlist.strings */; };
+		423FFE261710A199002F5511 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 423FFE251710A199002F5511 /* main.m */; };
+		423FFE2A1710A199002F5511 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 423FFE291710A199002F5511 /* AppDelegate.m */; };
+		423FFE2C1710A199002F5511 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 423FFE2B1710A199002F5511 /* Default.png */; };
+		423FFE2E1710A199002F5511 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 423FFE2D1710A199002F5511 /* Default@2x.png */; };
+		423FFE301710A199002F5511 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 423FFE2F1710A199002F5511 /* Default-568h@2x.png */; };
+		423FFE331710A199002F5511 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 423FFE311710A199002F5511 /* MainStoryboard_iPhone.storyboard */; };
+		423FFE361710A199002F5511 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 423FFE341710A199002F5511 /* MainStoryboard_iPad.storyboard */; };
+		423FFE391710A199002F5511 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 423FFE381710A199002F5511 /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		423FFE161710A199002F5511 /* CarAlarm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarAlarm.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		423FFE191710A199002F5511 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		423FFE1B1710A199002F5511 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		423FFE1D1710A199002F5511 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		423FFE211710A199002F5511 /* CarAlarm-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CarAlarm-Info.plist"; sourceTree = "<group>"; };
+		423FFE231710A199002F5511 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		423FFE251710A199002F5511 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		423FFE271710A199002F5511 /* CarAlarm-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CarAlarm-Prefix.pch"; sourceTree = "<group>"; };
+		423FFE281710A199002F5511 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		423FFE291710A199002F5511 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		423FFE2B1710A199002F5511 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		423FFE2D1710A199002F5511 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		423FFE2F1710A199002F5511 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		423FFE321710A199002F5511 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		423FFE351710A199002F5511 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		423FFE371710A199002F5511 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		423FFE381710A199002F5511 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		423FFE131710A199002F5511 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				423FFE1A1710A199002F5511 /* UIKit.framework in Frameworks */,
+				423FFE1C1710A199002F5511 /* Foundation.framework in Frameworks */,
+				423FFE1E1710A199002F5511 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		423FFE0D1710A199002F5511 = {
+			isa = PBXGroup;
+			children = (
+				423FFE1F1710A199002F5511 /* CarAlarm */,
+				423FFE181710A199002F5511 /* Frameworks */,
+				423FFE171710A199002F5511 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		423FFE171710A199002F5511 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				423FFE161710A199002F5511 /* CarAlarm.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		423FFE181710A199002F5511 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				423FFE191710A199002F5511 /* UIKit.framework */,
+				423FFE1B1710A199002F5511 /* Foundation.framework */,
+				423FFE1D1710A199002F5511 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		423FFE1F1710A199002F5511 /* CarAlarm */ = {
+			isa = PBXGroup;
+			children = (
+				423FFE281710A199002F5511 /* AppDelegate.h */,
+				423FFE291710A199002F5511 /* AppDelegate.m */,
+				423FFE311710A199002F5511 /* MainStoryboard_iPhone.storyboard */,
+				423FFE341710A199002F5511 /* MainStoryboard_iPad.storyboard */,
+				423FFE371710A199002F5511 /* ViewController.h */,
+				423FFE381710A199002F5511 /* ViewController.m */,
+				423FFE201710A199002F5511 /* Supporting Files */,
+			);
+			path = CarAlarm;
+			sourceTree = "<group>";
+		};
+		423FFE201710A199002F5511 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				423FFE211710A199002F5511 /* CarAlarm-Info.plist */,
+				423FFE221710A199002F5511 /* InfoPlist.strings */,
+				423FFE251710A199002F5511 /* main.m */,
+				423FFE271710A199002F5511 /* CarAlarm-Prefix.pch */,
+				423FFE2B1710A199002F5511 /* Default.png */,
+				423FFE2D1710A199002F5511 /* Default@2x.png */,
+				423FFE2F1710A199002F5511 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		423FFE151710A199002F5511 /* CarAlarm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 423FFE3C1710A199002F5511 /* Build configuration list for PBXNativeTarget "CarAlarm" */;
+			buildPhases = (
+				423FFE121710A199002F5511 /* Sources */,
+				423FFE131710A199002F5511 /* Frameworks */,
+				423FFE141710A199002F5511 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CarAlarm;
+			productName = CarAlarm;
+			productReference = 423FFE161710A199002F5511 /* CarAlarm.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		423FFE0E1710A199002F5511 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Jera Design LLC";
+			};
+			buildConfigurationList = 423FFE111710A199002F5511 /* Build configuration list for PBXProject "CarAlarm" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 423FFE0D1710A199002F5511;
+			productRefGroup = 423FFE171710A199002F5511 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				423FFE151710A199002F5511 /* CarAlarm */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		423FFE141710A199002F5511 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				423FFE241710A199002F5511 /* InfoPlist.strings in Resources */,
+				423FFE2C1710A199002F5511 /* Default.png in Resources */,
+				423FFE2E1710A199002F5511 /* Default@2x.png in Resources */,
+				423FFE301710A199002F5511 /* Default-568h@2x.png in Resources */,
+				423FFE331710A199002F5511 /* MainStoryboard_iPhone.storyboard in Resources */,
+				423FFE361710A199002F5511 /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		423FFE121710A199002F5511 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				423FFE261710A199002F5511 /* main.m in Sources */,
+				423FFE2A1710A199002F5511 /* AppDelegate.m in Sources */,
+				423FFE391710A199002F5511 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		423FFE221710A199002F5511 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				423FFE231710A199002F5511 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		423FFE311710A199002F5511 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				423FFE321710A199002F5511 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		423FFE341710A199002F5511 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				423FFE351710A199002F5511 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		423FFE3A1710A199002F5511 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		423FFE3B1710A199002F5511 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		423FFE3D1710A199002F5511 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CarAlarm/CarAlarm-Prefix.pch";
+				INFOPLIST_FILE = "CarAlarm/CarAlarm-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		423FFE3E1710A199002F5511 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CarAlarm/CarAlarm-Prefix.pch";
+				INFOPLIST_FILE = "CarAlarm/CarAlarm-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		423FFE111710A199002F5511 /* Build configuration list for PBXProject "CarAlarm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				423FFE3A1710A199002F5511 /* Debug */,
+				423FFE3B1710A199002F5511 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		423FFE3C1710A199002F5511 /* Build configuration list for PBXNativeTarget "CarAlarm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				423FFE3D1710A199002F5511 /* Debug */,
+				423FFE3E1710A199002F5511 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 423FFE0E1710A199002F5511 /* Project object */;
+}
