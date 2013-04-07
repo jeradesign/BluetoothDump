@@ -16,5 +16,6 @@
 @property (nonatomic) CBCentralManager *manager;
 @property (nonatomic) CBPeripheral *peripheral;
 @property (nonatomic) BOOL connected;
+@property (nonatomic) BOOL found;
 
 @end
