@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		423171DC17232A91003ABD0B /* BluetoothDumpIcon114.png in Resources */ = {isa = PBXBuildFile; fileRef = 423171DB17232A91003ABD0B /* BluetoothDumpIcon114.png */; };
 		423FFE1A1710A199002F5511 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 423FFE191710A199002F5511 /* UIKit.framework */; };
 		423FFE1C1710A199002F5511 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 423FFE1B1710A199002F5511 /* Foundation.framework */; };
 		423FFE1E1710A199002F5511 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 423FFE1D1710A199002F5511 /* CoreGraphics.framework */; };
@@ -23,14 +24,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		423FFE161710A199002F5511 /* CarAlarm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarAlarm.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		423171DB17232A91003ABD0B /* BluetoothDumpIcon114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BluetoothDumpIcon114.png; sourceTree = "<group>"; };
+		423FFE161710A199002F5511 /* BluetoothDump.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BluetoothDump.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		423FFE191710A199002F5511 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		423FFE1B1710A199002F5511 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		423FFE1D1710A199002F5511 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		423FFE211710A199002F5511 /* CarAlarm-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CarAlarm-Info.plist"; sourceTree = "<group>"; };
+		423FFE211710A199002F5511 /* BluetoothDump-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BluetoothDump-Info.plist"; sourceTree = "<group>"; };
 		423FFE231710A199002F5511 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		423FFE251710A199002F5511 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		423FFE271710A199002F5511 /* CarAlarm-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CarAlarm-Prefix.pch"; sourceTree = "<group>"; };
+		423FFE271710A199002F5511 /* BluetoothDump-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BluetoothDump-Prefix.pch"; sourceTree = "<group>"; };
 		423FFE281710A199002F5511 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		423FFE291710A199002F5511 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		423FFE2B1710A199002F5511 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
@@ -61,7 +63,8 @@
 		423FFE0D1710A199002F5511 = {
 			isa = PBXGroup;
 			children = (
-				423FFE1F1710A199002F5511 /* CarAlarm */,
+				423171DB17232A91003ABD0B /* BluetoothDumpIcon114.png */,
+				423FFE1F1710A199002F5511 /* BluetoothDump */,
 				423FFE181710A199002F5511 /* Frameworks */,
 				423FFE171710A199002F5511 /* Products */,
 			);
@@ -70,7 +73,7 @@
 		423FFE171710A199002F5511 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				423FFE161710A199002F5511 /* CarAlarm.app */,
+				423FFE161710A199002F5511 /* BluetoothDump.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -86,7 +89,7 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		423FFE1F1710A199002F5511 /* CarAlarm */ = {
+		423FFE1F1710A199002F5511 /* BluetoothDump */ = {
 			isa = PBXGroup;
 			children = (
 				423FFE281710A199002F5511 /* AppDelegate.h */,
@@ -97,16 +100,16 @@
 				423FFE381710A199002F5511 /* ViewController.m */,
 				423FFE201710A199002F5511 /* Supporting Files */,
 			);
-			path = CarAlarm;
+			path = BluetoothDump;
 			sourceTree = "<group>";
 		};
 		423FFE201710A199002F5511 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				423FFE211710A199002F5511 /* CarAlarm-Info.plist */,
+				423FFE211710A199002F5511 /* BluetoothDump-Info.plist */,
 				423FFE221710A199002F5511 /* InfoPlist.strings */,
 				423FFE251710A199002F5511 /* main.m */,
-				423FFE271710A199002F5511 /* CarAlarm-Prefix.pch */,
+				423FFE271710A199002F5511 /* BluetoothDump-Prefix.pch */,
 				423FFE2B1710A199002F5511 /* Default.png */,
 				423FFE2D1710A199002F5511 /* Default@2x.png */,
 				423FFE2F1710A199002F5511 /* Default-568h@2x.png */,
@@ -117,9 +120,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		423FFE151710A199002F5511 /* CarAlarm */ = {
+		423FFE151710A199002F5511 /* BluetoothDump */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 423FFE3C1710A199002F5511 /* Build configuration list for PBXNativeTarget "CarAlarm" */;
+			buildConfigurationList = 423FFE3C1710A199002F5511 /* Build configuration list for PBXNativeTarget "BluetoothDump" */;
 			buildPhases = (
 				423FFE121710A199002F5511 /* Sources */,
 				423FFE131710A199002F5511 /* Frameworks */,
@@ -129,9 +132,9 @@
 			);
 			dependencies = (
 			);
-			name = CarAlarm;
-			productName = CarAlarm;
-			productReference = 423FFE161710A199002F5511 /* CarAlarm.app */;
+			name = BluetoothDump;
+			productName = BluetoothDump;
+			productReference = 423FFE161710A199002F5511 /* BluetoothDump.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -143,7 +146,7 @@
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = "Jera Design LLC";
 			};
-			buildConfigurationList = 423FFE111710A199002F5511 /* Build configuration list for PBXProject "CarAlarm" */;
+			buildConfigurationList = 423FFE111710A199002F5511 /* Build configuration list for PBXProject "BluetoothDump" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -155,7 +158,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				423FFE151710A199002F5511 /* CarAlarm */,
+				423FFE151710A199002F5511 /* BluetoothDump */,
 			);
 		};
 /* End PBXProject section */
@@ -171,6 +174,7 @@
 				423FFE301710A199002F5511 /* Default-568h@2x.png in Resources */,
 				423FFE331710A199002F5511 /* MainStoryboard_iPhone.storyboard in Resources */,
 				423FFE361710A199002F5511 /* MainStoryboard_iPad.storyboard in Resources */,
+				423171DC17232A91003ABD0B /* BluetoothDumpIcon114.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,9 +283,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "CarAlarm/CarAlarm-Prefix.pch";
-				INFOPLIST_FILE = "CarAlarm/CarAlarm-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "BluetoothDump/BluetoothDump-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/BluetoothDump/BluetoothDump-Info.plist";
+				PRODUCT_NAME = BluetoothDump;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -290,9 +294,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "CarAlarm/CarAlarm-Prefix.pch";
-				INFOPLIST_FILE = "CarAlarm/CarAlarm-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "BluetoothDump/BluetoothDump-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/BluetoothDump/BluetoothDump-Info.plist";
+				PRODUCT_NAME = BluetoothDump;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -300,7 +304,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		423FFE111710A199002F5511 /* Build configuration list for PBXProject "CarAlarm" */ = {
+		423FFE111710A199002F5511 /* Build configuration list for PBXProject "BluetoothDump" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				423FFE3A1710A199002F5511 /* Debug */,
@@ -309,13 +313,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		423FFE3C1710A199002F5511 /* Build configuration list for PBXNativeTarget "CarAlarm" */ = {
+		423FFE3C1710A199002F5511 /* Build configuration list for PBXNativeTarget "BluetoothDump" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				423FFE3D1710A199002F5511 /* Debug */,
 				423FFE3E1710A199002F5511 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

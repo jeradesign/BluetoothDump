@@ -1,6 +1,6 @@
 //
 //  ViewController.m
-//  CarAlarm
+//  BluetoothDump
 //
 //  Created by John Brewer on 4/6/13.
 //  Copyright (c) 2013 Jera Design LLC. All rights reserved.
@@ -65,6 +65,8 @@
                   RSSI:(NSNumber *)RSSI
 {
     [self logMessage:peripheral.name];
+    if (peripheral.name == NULL) { return; }
+    if (peripheral.UUID == NULL) { return; }
     [self logMessage:(__bridge NSString *)(CFUUIDCreateString(NULL, peripheral.UUID))];
     if ([peripheral.name isEqualToString:@"TI BLE Sensor Tag"] && !self.found) {
         [self logMessage:@"SensorTag Found!"];
